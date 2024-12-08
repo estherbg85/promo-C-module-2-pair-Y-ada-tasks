@@ -14,34 +14,38 @@
   <body>
       <section class="container">
         <div class="new_task">
-            <input class="new_task_new" type="text" id="name" placeholder="Nueva tarea">
+            <input class="new_task_input" type="text" id="name" placeholder="Nueva tarea">
             <input class="new_task_submit" type="submit" value="Agregar" >
         </div>
         <div class="tasks">
-            <input type="text"  id="name" placeholder="Ejemplo: gim" />
-            <input type="submit" value="Buscar" />
+            <input  class="tasks_input" type="text"  id="name" placeholder="Ejemplo: gim">
+            <input class="tasks_submit" type="submit" value="Buscar">
 
             <ul>
-                <li>
+                <li class="list_tasks">
                     <input type="checkbox" id="checkbox">
-                    <input type="text" placeholder="sacar al perro">
+                    <label for="tarea1">Sacar al perro</label>
                     
                 </li>
-                <li class="li_task" >
+                <li class="list_tasks" >
                     <input type="checkbox" id="tarea2"/>
                     <label for="tarea1">Echar gasolina</label>
                 </li>
-                <li>
-                    <input type="checkbox" id="tarea3"/>
+                <li class="list_tasks">
+                    <input type="checkbox" id="tarea3">
                     <label for="tarea1">Ir al supermercado</label>
                 </li>
-                <li>
-                    <input type="checkbox" id="tarea4"/>
-                    <label for="tarea1">Pedir cita a la peluqueria</label>
+                <li class="list_tasks">
+                    <input type="checkbox" id="tarea4">
+                    <label for="tarea1">Pedir cita a la peluqueria para el lunes 25 de septiembre</label>
                 </li>
-                <li>
+                <li class="list_tasks">
                     <input type="checkbox" id="tarea5"  />
                     <label for="tarea1">Hacer la comida</label>
+                </li>
+                <li class="list_tasks">
+                    <input type="checkbox" id="tarea5"  />
+                    <label for="tarea1">Recoger a los niños del colegio</label>
                 </li>
               </ul>
         </div>
