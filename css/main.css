@@ -13,5 +13,6 @@
 }
 
 .body {
+    background-size: cover;
     background-color: rgb(226, 223, 223);
 }
