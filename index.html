@@ -11,16 +11,41 @@
     <h1>AdaTasks</h1>
   </header>
 
-  <body class="body">
-    <main class="main">
+  <body>
       <section class="container">
-        <input type="text" name="name" id="name" placeholder="Nueva tarea" />
-        <input type="submit" value="Agregar" />
-      </section>
+        <div class="new_task">
+            <input class="new_task_new" type="text" id="name" placeholder="Nueva tarea">
+            <input class="new_task_submit" type="submit" value="Agregar" >
+        </div>
+        <div class="tasks">
+            <input type="text"  id="name" placeholder="Ejemplo: gim" />
+            <input type="submit" value="Buscar" />
 
-      <section class="container_tasks">
-        <input type="text" name="name" id="name" placeholder="Ejemplo: gim" />
-        <input type="submit" value="Buscar" />
+            <ul>
+                <li>
+                    <input type="checkbox" id="checkbox">
+                    <input type="text" placeholder="sacar al perro">
+                    
+                </li>
+                <li class="li_task" >
+                    <input type="checkbox" id="tarea2"/>
+                    <label for="tarea1">Echar gasolina</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="tarea3"/>
+                    <label for="tarea1">Ir al supermercado</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="tarea4"/>
+                    <label for="tarea1">Pedir cita a la peluqueria</label>
+                </li>
+                <li>
+                    <input type="checkbox" id="tarea5"  />
+                    <label for="tarea1">Hacer la comida</label>
+                </li>
+              </ul>
+        </div>
+      
       </section>
     </main>
     <script src="./js/main.js"></script>
